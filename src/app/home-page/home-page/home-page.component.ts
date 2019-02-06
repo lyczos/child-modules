@@ -15,7 +15,10 @@ export class HomePageComponent implements OnInit {
   }
 
   openModal(): void {
-    this.bsModalService.show(FirstNormalModalComponent);
+    const initialState = {
+      list: ['111','222','333']
+    };
+    this.bsModalService.show(FirstNormalModalComponent, {initialState});
   }
 
 }

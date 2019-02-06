@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FirstNormalModalComponent implements OnInit {
 
+  list: any[];
   constructor() { }
 
   ngOnInit() {
