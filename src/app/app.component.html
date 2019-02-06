@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+Outlet:
+<button [routerLink]="['home']">Home</button>
+<button [routerLink]="['contact']">Contact</button>
+<button (click)="openModal()">Open global Modal</button>
+<router-outlet></router-outlet>
